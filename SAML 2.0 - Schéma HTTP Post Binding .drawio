@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T11:22:37.871Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="qiKfl0SZJpaOzDvHVofl" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T11:44:39.597Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="9VuhFhJtHPusVGYh_vV6" version="22.1.5" type="github">
   <diagram name="Page-1" id="xq79SUk1x-63ovbwencG">
     <mxGraphModel dx="880" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,8 +20,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-5" value="1. L&#39;agent utilisateur accède à une ressource du requérant SAML à l&#39;aide d&#39;une requête HTTP." style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="190" y="180" width="140" height="30" as="geometry" />
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-5" value="1. L&#39;agent utilisateur accède à une ressource du requérant SAML au moyen d&#39;une demande HTTP." style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="171" y="202" width="239" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ArJefbUZaH6O0o4Y3IaT-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -51,8 +51,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-10" value="2. Demande SAML renvoyée dans l&#39;URL de redirection HTTP vers le répondeur SAML, codée dans l&#39;en-tête Location." style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="190" y="248" width="160" height="50" as="geometry" />
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-10" value="2. La demande SAML est renvoyée sous la forme d&#39;un formulaire XHTML destiné au répondeur SAML, encodé en base64. L&#39;agent utilisateur soumet le formulaire en HTTP POST au répondeur SAML." style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="171" y="248" width="239" height="42" as="geometry" />
         </mxCell>
         <mxCell id="ArJefbUZaH6O0o4Y3IaT-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -61,7 +61,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ArJefbUZaH6O0o4Y3IaT-12" value="3. Le répondeur SAML interagit avec l&#39;agent utilisateur, sous réserve des contraintes de la demande SAML." style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="190" y="346" width="160" height="50" as="geometry" />
+          <mxGeometry x="171" y="358" width="239" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ArJefbUZaH6O0o4Y3IaT-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -73,8 +73,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-14" value="4. Réponse SAML renvoyée dans l&#39;URL de redirection HTTP au demandeur SAML, encodée dans l&#39;en-tête Location." style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="190" y="417" width="211" height="3" as="geometry" />
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-14" value="4. La réponse SAML est renvoyée sous forme XHTML au demandeur SAML, encodée en base64. L&#39;agent utilisateur soumet le formulaire en HTTP POST au demandeur SAML." style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="171" y="407" width="239" height="43" as="geometry" />
         </mxCell>
         <mxCell id="ArJefbUZaH6O0o4Y3IaT-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -82,8 +82,8 @@
             <mxPoint x="160" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-16" value="5. Réponse http envoyée à l&#39;agent oser par le demandeur SAML à l&#39;issue de l&#39;échange DAML" style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="190" y="506" width="190" height="40" as="geometry" />
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-16" value="5. Réponse HTTP envoyée à l&#39;agent utilisateur par le SAMLRequester à l&#39;issue de l&#39;échange SAML" style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="171" y="520" width="239" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ArJefbUZaH6O0o4Y3IaT-17" value="Je dois initier un échange de protocole SAML" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="480" y="160" width="100" height="60" as="geometry" />
