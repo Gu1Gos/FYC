@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T17:35:23.156Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="mbodcwfK6gMwsl3OO3dy" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T17:41:21.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="V-aouz6HmjLuu4ZkpOKT" version="22.1.5" type="github">
   <diagram name="Page-1" id="Z1dN4YUIuchXaLhWcOcm">
     <mxGraphModel dx="880" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -152,6 +152,15 @@
         </mxCell>
         <mxCell id="vRyqpYlhH49qh_zvyagT-54" value="&lt;b&gt;Fournisseur de servce&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="603" y="516" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vRyqpYlhH49qh_zvyagT-55" value="5.&amp;nbsp;Valide l’assertion et l’identité de l’utilisateur" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="465" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vRyqpYlhH49qh_zvyagT-56" value="&lt;div&gt;6. Redirige l’utilisateur vers l’application&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="720" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vRyqpYlhH49qh_zvyagT-57" value="&lt;b&gt;Application&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="507" y="695" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
