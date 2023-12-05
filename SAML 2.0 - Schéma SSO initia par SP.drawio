@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T20:57:31.397Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="4DeDTEhEUC3O2oTJcL23" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T09:24:49.897Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="HiY3uDAv3WVqRqHPepwW" version="22.1.5" type="github">
   <diagram name="Page-1" id="HT7ogSYT6eZmR_VBzKeP">
-    <mxGraphModel dx="880" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1173" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -147,7 +147,7 @@
         <mxCell id="M-R3emzxL240U-5onMwY-40" value="&lt;b&gt;Application&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="507" y="695" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ChqPJJlyWwDbHh0CpwSx-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="M-R3emzxL240U-5onMwY-6">
+        <mxCell id="ChqPJJlyWwDbHh0CpwSx-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" target="M-R3emzxL240U-5onMwY-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="335" y="580" as="sourcePoint" />
             <mxPoint x="495" y="725" as="targetPoint" />
@@ -156,25 +156,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ChqPJJlyWwDbHh0CpwSx-2" value="&lt;div&gt;1. L&#39;utilisateur accède à l&#39;appli sans session&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ChqPJJlyWwDbHh0CpwSx-2" value="&lt;div&gt;1. L&#39;utilisateur accède à l&#39;appli sans session&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="640" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ChqPJJlyWwDbHh0CpwSx-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="ChqPJJlyWwDbHh0CpwSx-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="505.5" as="sourcePoint" />
             <mxPoint x="506" y="505" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ChqPJJlyWwDbHh0CpwSx-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="ChqPJJlyWwDbHh0CpwSx-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="554.5" as="sourcePoint" />
             <mxPoint x="506" y="554" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ChqPJJlyWwDbHh0CpwSx-5" value="3. Détermine quel IdP utiliser" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ChqPJJlyWwDbHh0CpwSx-5" value="3. Détermine quel IdP utiliser" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="476" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ChqPJJlyWwDbHh0CpwSx-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="M-R3emzxL240U-5onMwY-5">
+        <mxCell id="ChqPJJlyWwDbHh0CpwSx-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" target="M-R3emzxL240U-5onMwY-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="490" as="sourcePoint" />
             <mxPoint x="505" y="310" as="targetPoint" />
@@ -183,7 +183,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ChqPJJlyWwDbHh0CpwSx-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="M-R3emzxL240U-5onMwY-5">
+        <mxCell id="ChqPJJlyWwDbHh0CpwSx-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" target="M-R3emzxL240U-5onMwY-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="490" as="sourcePoint" />
             <mxPoint x="380" y="170" as="targetPoint" />
@@ -193,7 +193,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ChqPJJlyWwDbHh0CpwSx-10" value="7. Redirige l&#39;utilisateur vers le SP avec une assertion" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ChqPJJlyWwDbHh0CpwSx-10" value="7. Redirige l&#39;utilisateur vers le SP avec une assertion" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="354" y="390" width="146" height="30" as="geometry" />
         </mxCell>
       </root>
