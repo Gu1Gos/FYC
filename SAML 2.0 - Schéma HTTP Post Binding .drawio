@@ -1,47 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T11:45:14.147Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="PDq1OwTWbb5zYVqWlKGr" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T09:43:51.173Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uSFUpV3ryp7sPSlOg-h8" version="22.1.5" type="github">
   <diagram name="Page-1" id="xq79SUk1x-63ovbwencG">
-    <mxGraphModel dx="880" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1173" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-1" value="Répondeur SAML" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-1" value="Répondeur SAML" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-2" value="Demandeur SAML" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-2" value="Demandeur SAML" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-3" value="Agent utilisateur&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-3" value="Agent utilisateur&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="159.5" y="160" as="sourcePoint" />
             <mxPoint x="160" y="580" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-5" value="1. L&#39;agent utilisateur accède à une ressource du requérant SAML au moyen d&#39;une demande HTTP." style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-5" value="1. L&#39;agent utilisateur accède à une ressource du requérant SAML au moyen d&#39;une demande HTTP." style="text;whiteSpace=wrap;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="171" y="202" width="239" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="659.5" y="160" as="sourcePoint" />
             <mxPoint x="660" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ArJefbUZaH6O0o4Y3IaT-2">
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ArJefbUZaH6O0o4Y3IaT-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="414" y="170" as="sourcePoint" />
             <mxPoint x="410" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-8" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="240" as="sourcePoint" />
             <mxPoint x="410" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-9" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="305" as="sourcePoint" />
             <mxPoint x="660" y="330" as="targetPoint" />
@@ -51,19 +51,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-10" value="2. La demande SAML est renvoyée sous la forme d&#39;un formulaire XHTML destiné au répondeur SAML, encodé en base64. L&#39;agent utilisateur soumet le formulaire en HTTP POST au répondeur SAML." style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-10" value="2. La demande SAML est renvoyée sous la forme d&#39;un formulaire XHTML destiné au répondeur SAML, encodé en base64. L&#39;agent utilisateur soumet le formulaire en HTTP POST au répondeur SAML." style="text;whiteSpace=wrap;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="171" y="248" width="239" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-11" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="660" y="404" as="sourcePoint" />
             <mxPoint x="160" y="404" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-12" value="3. Le répondeur SAML interagit avec l&#39;agent utilisateur, sous réserve des contraintes de la demande SAML." style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-12" value="3. Le répondeur SAML interagit avec l&#39;agent utilisateur, sous réserve des contraintes de la demande SAML." style="text;whiteSpace=wrap;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="171" y="358" width="239" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-13" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="660" y="460" as="sourcePoint" />
             <mxPoint x="410" y="490" as="targetPoint" />
@@ -73,22 +73,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-14" value="4. La réponse SAML est renvoyée sous forme XHTML au demandeur SAML, encodée en base64. L&#39;agent utilisateur soumet le formulaire en HTTP POST au demandeur SAML." style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-14" value="4. La réponse SAML est renvoyée sous forme XHTML au demandeur SAML, encodée en base64. L&#39;agent utilisateur soumet le formulaire en HTTP POST au demandeur SAML." style="text;whiteSpace=wrap;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="171" y="407" width="239" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-15" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="660" y="550" as="sourcePoint" />
             <mxPoint x="160" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-16" value="5. Réponse HTTP envoyée à l&#39;agent utilisateur par le SAMLRequester à l&#39;issue de l&#39;échange SAML" style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-16" value="5. Réponse HTTP envoyée à l&#39;agent utilisateur par le SAMLRequester à l&#39;issue de l&#39;échange SAML" style="text;whiteSpace=wrap;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="171" y="520" width="239" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-17" value="Je dois initier un échange de protocole SAML" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-17" value="Je dois initier un échange de protocole SAML" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="480" y="160" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ArJefbUZaH6O0o4Y3IaT-18" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="ArJefbUZaH6O0o4Y3IaT-18" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="198" as="sourcePoint" />
             <mxPoint x="430" y="230" as="targetPoint" />
