@@ -1,9 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2023-12-26T13:24:44.507Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" version="22.1.11" etag="CnW9At4nxf0J1KABRJvh" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-26T13:37:27.799Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="eIsQCnnhAFBcQjHJauOP" version="22.1.11" type="github">
   <diagram name="Page-1" id="70-RQFOv_sxfQWD2X_kT">
-    <mxGraphModel>
+    <mxGraphModel dx="810" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-1" value="Serveur d&#39;autorisation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-2" value="Propriétaire de la ressource" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-3" value="Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="159.5" y="160" as="sourcePoint" />
+            <mxPoint x="160" y="490" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-5" value="1. Redirection vers le serveur d&#39;autorisation" style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="171" y="217" width="239" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.5" y="160" as="sourcePoint" />
+            <mxPoint x="660" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="S7u2x-YOI1_Iu_SVlstE-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="170" as="sourcePoint" />
+            <mxPoint x="410" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-10" value="2. Authentification et autorisation du client" style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="440" y="225" width="239" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-12" value="3. Redirection vers le client avec un code" style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="440" y="290" width="239" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-14" value="4. Demande de token d&#39;accès avec le code généré" style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="239" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-15" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="420" as="sourcePoint" />
+            <mxPoint x="160" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-16" value="5. Délivrance du token d&#39;accès et du token de rafraichissement " style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="214.5" y="420" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="229" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="S7u2x-YOI1_Iu_SVlstE-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="240" as="sourcePoint" />
+            <mxPoint x="400" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.905;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="S7u2x-YOI1_Iu_SVlstE-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="248" as="sourcePoint" />
+            <mxPoint x="650" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="654" y="238" width="10" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-32" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="654" y="290" as="sourcePoint" />
+            <mxPoint x="410" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-33" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="300" as="sourcePoint" />
+            <mxPoint x="166" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-34" value="3. Redirection vers le client avec un code" style="text;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="171" y="300" width="239" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="400" as="sourcePoint" />
+            <mxPoint x="660" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7u2x-YOI1_Iu_SVlstE-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="400" width="10" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
